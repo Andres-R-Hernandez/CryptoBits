@@ -11,16 +11,19 @@ Backend
 
 Frontend
 - Setup main App and Routing 
-- Containers
-    - Login
-    - Navigation Bar
-    - Wallet
-    - Crypto Pancakes
+- Containers/Pages
+    - Login/Signup
+    - Home/Dashboard
     - Buy/Sell
+    - Account Details
+    - Crypto Show Page
 - Components
-    - Pancakes
+    - Navigation Bar
+    - Crypto Pancakes
     - Walllet CrytoBits
     - Buy/Sell Form
-- API Integration
-    - Fetch calls
-    - State?
+    - Wallet
+
+API Integration
+- Fetch calls
+- State?
