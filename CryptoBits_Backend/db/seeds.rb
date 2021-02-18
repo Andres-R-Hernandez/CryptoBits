@@ -13,3 +13,5 @@ dogecoin = Cryptocurrency.create(name: "DogeCoin", coingecko_ID: 'dogecoin')
 ethereum = Cryptocurrency.create(name: "Ethereum", coingecko_ID: 'ethereum')
 tether = Cryptocurrency.create(name: "Tether", coingecko_ID: 'tether')
 cardano = Cryptocurrency.create(name: "Cardano", coingecko_ID: 'cardano')
+
+user1 = User.create(name: "John", email: )
