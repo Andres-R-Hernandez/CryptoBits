@@ -2,6 +2,7 @@
 Crypto Currency Tracker and Wallet 
 
 To-Do List:
+
 Backend
 - Create models
 - Implement Bcrypt
