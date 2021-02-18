@@ -8,7 +8,7 @@ import Home from './Containers/Home'
 
 import React, { Component } from 'react'
 
-export default class App extends Component {
+export default class App extends Component {  
   render() {
     return (
       <Router>
@@ -21,5 +21,5 @@ export default class App extends Component {
       </div>
     </Router>
     );
-    }
+  }
 }
