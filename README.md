@@ -5,25 +5,30 @@ To-Do List:
 
 Backend
 - Create models
-- Implement Bcrypt
+- Implement Bcrypt (has_secure_password)
 - Create DB (migrations)
 - Create Routes and Actions
 
 Frontend
 - Setup main App and Routing 
 - Containers/Pages
-    - Login/Signup
-    - Home/Dashboard
-    - Buy/Sell
-    - Account Details
-    - Crypto Show Page
+    - Login/Signup (Login)
+    - Home/Dashboard (Home)
+    - Buy/Sell (Trade)
+    - Account Details (Account)
+    - Crypto Show Page (CryptoShow)
 - Components
-    - Navigation Bar
-    - Crypto Pancakes
-    - Walllet CrytoBits
-    - Buy/Sell Form
+    - Navigation Bar (NavBar)
+    - Crypto Pancakes (PancakePlate is container within Home for CryptoPancakes)
+    - Walllet CrytoBits (WalletBits)
+    - Buy/Sell Form (TradeForm)
     - Wallet
 
 API Integration
 - Fetch calls
 - State?
+
+MISC
+- commits created from branches
+- git pull origin main for latest "Master" repo
+    - ONLY DO AFTER ALL BRANCHES COMMIT AND CONFLICTS RESOLVED
