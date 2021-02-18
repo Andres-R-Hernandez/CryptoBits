@@ -8,6 +8,7 @@ Backend
 - Implement Bcrypt
 - Create DB (migrations)
 - Create Routes and Actions
+
 Frontend
 - Setup main App and Routing 
 - Containers
