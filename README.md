@@ -24,5 +24,3 @@ Frontend
 - API Integration
     - Fetch calls
     - State?
-
-What else?
