@@ -5,6 +5,7 @@ import {
 } from 'react-router-dom';
 import NavBar from './Components/NavBar';
 import Home from './Containers/Home'
+import Account from './Containers/Account'
 
 import React, { Component } from 'react'
 
@@ -15,8 +16,8 @@ export default class App extends Component {
       <div>
         <NavBar/>
         <Route exact path='/' component={Home}/>
-        {/* <Route exact path='/xxx' component={xxx}/>
-        <Route exact path='/yyy' component={yyy}/>
+        <Route exact path='/account' component={Account}/>
+        {/* <Route exact path='/yyy' component={yyy}/>
         <Route exact path='/zzz' component={zzz}/> */}
       </div>
     </Router>
