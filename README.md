@@ -16,6 +16,8 @@ Frontend
     - Home/Dashboard (Home)
     - Buy/Sell (Trade)
     - Account Details (Account)
+        - Display user details (name, email, cash available)
+        - Form to add cash to account
     - Crypto Show Page (CryptoShow)
 - Components
     - Navigation Bar (NavBar)
@@ -32,3 +34,8 @@ MISC
 - commits created from branches
 - git pull origin main for latest "Master" repo
     - ONLY DO AFTER ALL BRANCHES COMMIT AND CONFLICTS RESOLVED
+
+
+2/18 TODO
+
+- Remove cash from transaction table

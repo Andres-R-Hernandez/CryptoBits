@@ -16,7 +16,8 @@ ActiveRecord::Schema.define(version: 2021_02_18_154413) do
   enable_extension "plpgsql"
 
   create_table "cryptocurrencies", force: :cascade do |t|
-    t.integer "coingecko_ID"
+    t.string "coingecko_ID"
+    t.string "name"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
