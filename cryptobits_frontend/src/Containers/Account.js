@@ -4,6 +4,10 @@ const Account = (props) => {
 
 console.log(props)
 
+state = {
+    cash: 0
+}
+
 return(
     <div>
         <tr>
