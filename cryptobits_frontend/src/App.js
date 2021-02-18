@@ -9,7 +9,7 @@ import Account from './Containers/Account'
 
 import React, { Component } from 'react'
 
-export default class App extends Component {  
+export default class App extends Component {
   render() {
     return (
       <Router>
