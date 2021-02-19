@@ -6,6 +6,7 @@ import {
 import NavBar from './Components/NavBar';
 import Home from './Containers/Home'
 import Account from './Containers/Account'
+import Trade from './Containers/Trade'
 
 import React, { Component } from 'react'
 
@@ -16,10 +17,9 @@ export default class App extends Component {
   }
 
    componentDidMount = () => {
-    fetch(`URL/1`)
+    fetch(`http://localhost:3000/users/1`)
       .then(res => res.json())
       .then(userData => this.setState({user: userData}))
-
   }
 
 
@@ -29,9 +29,11 @@ export default class App extends Component {
       <div>
         <NavBar/>
         <Route exact path='/' component={Home}/>
-        <Route exact path='/account' render = {<Account userData = {this.state.user} />} />
-        {/* <Route exact path='/yyy' component={yyy}/>
-        <Route exact path='/zzz' component={zzz}/> */}
+        <Route exact path='/account'>
+          <Account userData={this.state.user} />
+        </Route>
+        <Route exact path='/trade' component={Trade}/>
+        {/*<Route exact path='/zzz' component={zzz}/> */}
       </div>
     </Router>
     );

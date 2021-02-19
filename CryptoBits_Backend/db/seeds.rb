@@ -7,6 +7,8 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 Cryptocurrency.destroy_all
+User.destroy_all
+Transaction.destroy_all
 
 bitcoin = Cryptocurrency.create(name: "Bitcoin", coingecko_ID: 'bitcoin')
 dogecoin = Cryptocurrency.create(name: "DogeCoin", coingecko_ID: 'dogecoin')
