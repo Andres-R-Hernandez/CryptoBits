@@ -26,7 +26,7 @@ export default class App extends Component {
   render() {
     return (
       <Router>
-      <div>
+      <div style={{textAlign:"center"}}>
         <NavBar/>
         <Route exact path='/' component={Home}/>
         <Route exact path='/account'>
