@@ -1,5 +1,12 @@
-.App {
+#app {
   text-align: center;
+  background-color:lightgray;
+}
+
+#home {
+  background-image:url('https://blog.rsisecurity.com/wp-content/uploads/2018/10/ccss-cryptocoins.jpg');
+  font-size: 20px;
+  
 }
 
 .App-logo {

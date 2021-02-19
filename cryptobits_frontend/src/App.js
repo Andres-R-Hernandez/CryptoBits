@@ -26,7 +26,7 @@ export default class App extends Component {
   render() {
     return (
       <Router>
-      <div>
+      <div id='app'>
         <NavBar/>
         <Route exact path='/' component={Home}/>
         <Route exact path='/account'>

@@ -19,10 +19,39 @@ export default class Home extends Component {
     
     render() {
         return (
-            <div>
-                <h1>Welcome!</h1>
-                <PancakePlate cryptocurrencies={this.state.cryptocurrencies}/>
-                <Wallet/>
+            <div id='home'>
+                <div style={{'backgroundColor':'white', opacity:0.75}}>
+                    <h1>Welcome!</h1>
+                    <PancakePlate cryptocurrencies={this.state.cryptocurrencies}/>
+                    <Wallet/>
+                </div>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <hr></hr>
             </div>
         )
     }

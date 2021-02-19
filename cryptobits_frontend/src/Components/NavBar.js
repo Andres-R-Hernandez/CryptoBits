@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <div className='navbar' >
       <span>
-        <img src={'https://i.imgur.com/bp7miXR.png'} style={{width:"150px", align:"right"}} alt='CryptoBits Logo'></img>
+        <img src={'https://i.imgur.com/bp7miXR.png'} style={{width:"200px", align:"right"}} alt='CryptoBits Logo'></img>
       </span>
 
       <span style={{display:"inline-block", textAlign:"right", padding:'10px'}}>
