@@ -1,7 +1,6 @@
 class TransactionsController < ApplicationController
 
-    def create_table
-        
+    def create
     end
 
 end
