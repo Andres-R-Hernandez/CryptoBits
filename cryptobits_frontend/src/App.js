@@ -9,14 +9,30 @@ import Account from './Containers/Account'
 
 import React, { Component } from 'react'
 
+URL = "http://localhost:3000"
+
 export default class App extends Component {
+
+  state = {
+    user: {}
+  }
+
+   componentDidMount = () => {
+    fetch(`URL/1`)
+      .then(res => res.json())
+      .then(userData => this.setState({user: userData}))
+
+  }
+
+
   render() {
     return (
       <Router>
       <div>
         <NavBar/>
         <Route exact path='/' component={Home}/>
-        <Route exact path='/account' component={Account}/>
+        <Route exact path='/account' render = {<Account userData = {this.state.user} />} />
+
         {/* <Route exact path='/yyy' component={yyy}/>
         <Route exact path='/zzz' component={zzz}/> */}
       </div>

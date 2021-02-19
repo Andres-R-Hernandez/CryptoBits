@@ -1,5 +1,3 @@
-
-
 import React, { Component } from 'react'
 
 export default class Account extends Component {
@@ -10,12 +8,12 @@ export default class Account extends Component {
     render() {
         return (
             <div>
-                <tr>
-                    <td>Account Name /* props.account.name */</td>
-                    <td>Account Email /* props.account.email */</td>
-                    <td>Fund Account form goes here </td>
-                    {/* <input onChange={(e) => this.setState({cash: e.target.value})} type="cash" name="cash" /> */}
-                </tr>
+                <h2>Name: {this.props.userData.name} </h2>
+                <h2>Email: {this.props.userData.email} </h2>
+                <h2>Cash Balance: ${this.props.userData.cash} </h2>
+                <p>
+                    { <input onChange={(e) => this.setState({cash: e.target.value})} type="cash" name="cash" placeholder="0.00"/> }
+                </p>
             </div>
         )
     }
