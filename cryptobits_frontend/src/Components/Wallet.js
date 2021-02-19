@@ -5,6 +5,7 @@ export default class Wallet extends Component {
         return (
             <div>
                 <h2>Wallet</h2>
+                (UNDER CONSTRUCTION)
             </div>
         )
     }
