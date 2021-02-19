@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 import CryptoPancake from './CryptoPancake.js'
 
 export default class PancakePlate extends Component {
-    renderCoinData = (coinName) => {
-        fetch(`https://api.coingecko.com/api/v3/coins/${coinName}?localization=false&tickers=false&market_data=false&community_data=false&developer_data=false&sparkline=false`)
+    renderCoinData = (coingecko_ID) => {
+        fetch(`https://api.coingecko.com/api/v3/coins/${coingecko_ID}?localization=false&tickers=false&market_data=false&community_data=false&developer_data=false&sparkline=false`)
         .then(resp=>resp.json())
         .then(data=>console.log(data))
     }    
@@ -15,7 +15,7 @@ export default class PancakePlate extends Component {
     render() {        
         return (
             <div>
-                <h2>Pancake Plate</h2>
+                <h2>Currently Trading These Currencies</h2>
                 {this.renderPancakes()}
             </div>
         )
